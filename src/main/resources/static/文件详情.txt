@@ -1,0 +1,18 @@
+## 3DPoints-master
+⭐⭐⭐⭐⭐3d提琴动画 在windows chrome下无法显示需要webgl支持
+
+## CanvasParticles-master
+⭐⭐⭐知乎粒子效果
+
+## particalAniamtion-master
+⭐⭐⭐⭐--> canvas_3d_advanced  //这是一个3d动画变换,立体几何
+⭐⭐⭐⭐--> firework    //漂亮的烟花星空
+⭐⭐⭐⭐--> particle    //炫酷的粒子发射变换成不同的文字
+⭐⭐⭐⭐--> star-1    //安静的夜空
+⭐--> zhihu       //知乎粒子
+
+## particle-master
+⭐粒子效果
+
+## rocket-master/rocket
+⭐⭐⭐⭐粒子效果可以拼成图像

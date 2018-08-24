@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>粒子效果</title>
+  <style>
+    * { margin: 0; padding: 0; }
+    html, body{ width: 100%; height: 100% }
+  </style>
+</head>
+<body>
+  <canvas id="myCanvas"></canvas>
+	<script src="./dist/bundle.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    const main = new Rocket({
+      el: document.getElementById('myCanvas'),
+      width: document.body.clientWidth,
+      height: document.body.clientHeight,
+      maxCols: 100,
+      maxRows: 100,
+      backgroundColor: '#0c1328',
+      particleDelay: 240,
+      particleOffset: 20,
+      particleSize: 2,
+      globalAlpha: 0.6,
+      repeat: true,
+    });
+
+    main.drawImage('./rocket/rocket.png', {
+      startFrom: 'onePoint'
+    });
+
+    // main.drawImage('./rocket/2dfire.png', {
+    //   // startFrom: 'onePoint'
+    // });
+    // console.log(main);
+  </script>
+</body>
+</html>
